@@ -13,3 +13,7 @@
 //1. pilares de POO
 //2. Objetos a profundidad
 //3. SOlid.
+
+//definicion: programacion orientada a objetos,
+
+//moldes: clases. - bloques de codigo, metodos y atributos base para los objetos. //aqui esntra esa madre de colocar/inyectar mas codigo a la dickenson.
