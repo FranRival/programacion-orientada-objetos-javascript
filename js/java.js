@@ -1,19 +1,9 @@
-//objetos vs objetos vs objetos.
+//calse; representacion de kotodos y atributos de una entidad.
 
-//crear objetos desde funciones. 
-//instancias de prototipos.
-//crear instancias de prototiopos necesitmoas crear prototipos.
+//objeto: instancia de una clase
 
-//sintaxis de prototipos; sintaxis de clases. 
-//prototipos: 
+//herencia: crear nuevas clases con caracteristicas similares a otras
 
+//encapsulamiento; datos ocltos que se accedn por clase
 
-// NUEVOS OBJETOS > OBJETOS > PROTOTIPOS
-
-//1. pilares de POO
-//2. Objetos a profundidad
-//3. SOlid.
-
-//definicion: programacion orientada a objetos,
-
-//moldes: clases. - bloques de codigo, metodos y atributos base para los objetos. //aqui esntra esa madre de colocar/inyectar mas codigo a la dickenson.
+//polimorfismo; un objeto que se comporta d emuchas formas.
