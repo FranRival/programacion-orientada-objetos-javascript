@@ -18,7 +18,14 @@ natalia.aprovarCursos.push("sdfdv")
 
 
 
-function Student (name, edad, cursosAprovados){
+function Student (name, age, cursosAprovados){
     //aqui usamos los datos de arriba.
+    this.name = name
+    this.age = age
+    this.cursosAprovados = cursosAprovados
+
+    this.aprovarCurso = function (cursillo){
+        this.cursosAprovados.push(cursillo)
+    }
 
 }
