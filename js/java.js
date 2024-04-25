@@ -1,36 +1,14 @@
-//calse; representacion de kotodos y atributos de una entidad.
 
-//objeto: instancia de una clase
+//objetos literales y prototipos 
 
-//herencia: crear nuevas clases con caracteristicas similares a otras
+const natalia = { //ya tiene el _proto_
 
-//encapsulamiento; datos ocltos que se accedn por clase
-
-//polimorfismo; un objeto que se comporta d emuchas formas.
-
-//un objeto en JS
-
-const estudiantes = [
-    'Persona1' = 5,
-    'Persona2' = 110,
-    'Persona3' = 224,
-    'Persona4' = 736
-]
-
-
-function Student (){
-    this.name = 'Persona'
-    this.age = 19
-    this.points = 942
+    name: 'Natalia',
+    age: 20,
+    cursosAprovados: [
+        'curso1',
+        'Curso2'
+    ]
 }
 
-const persona6 = new Student()
-
-//creamos una funcion; this. <-guardar atributos.
-
-//objeto literal vs prototipo. + una instancia de ese prototipo. 
-
-//atributo _Proto_
-
-//en proto es una instancia. todos esos metodos son instancias. 
-//{} <--js crea nuevas instancias. 
+natalia.cursosAprovados.push('curso4')
