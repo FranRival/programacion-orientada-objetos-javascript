@@ -7,3 +7,25 @@
 //encapsulamiento; datos ocltos que se accedn por clase
 
 //polimorfismo; un objeto que se comporta d emuchas formas.
+
+//un objeto en JS
+
+const estudiantes = [
+    'Persona1' = 5,
+    'Persona2' = 110,
+    'Persona3' = 224,
+    'Persona4' = 736
+]
+
+
+function Student (){
+    this.name = 'Persona'
+    this.age = 19
+    this.points = 942
+}
+
+const persona6 = new Student()
+
+//creamos una funcion; this. <-guardar atributos.
+
+//objeto literal vs prototipo. + una instancia de ese prototipo. 
