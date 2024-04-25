@@ -14,7 +14,7 @@ const natalia = { //ya tiene el _proto_
     }
 }
 
-natalia.aprovarCursos.push("sdfdv")
+natalia.aprovarCursos.push("sdfdv") /////////NO GOT UNDERSTAND THIS ERROR.
 
 
 
@@ -24,8 +24,17 @@ function Student (name, age, cursosAprovados){
     this.age = age
     this.cursosAprovados = cursosAprovados
 
-    this.aprovarCurso = function (cursillo){
+/*     this.aprovarCurso = function (cursillo){
         this.cursosAprovados.push(cursillo)
-    }
+    } */
 
 }
+
+
+//metodo por fuera de la funcion
+Student.prototype.aprovarCurso = function (cursillo){
+    this.cursosAprovados.push(cursillo)
+}
+
+//crear una instancia.
+const ponny = new Student('Pony', 45,['Curso43', 'Curso321'])
