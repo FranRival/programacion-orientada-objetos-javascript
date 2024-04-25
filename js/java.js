@@ -29,3 +29,8 @@ const persona6 = new Student()
 //creamos una funcion; this. <-guardar atributos.
 
 //objeto literal vs prototipo. + una instancia de ese prototipo. 
+
+//atributo _Proto_
+
+//en proto es una instancia. todos esos metodos son instancias. 
+//{} <--js crea nuevas instancias. 
