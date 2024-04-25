@@ -8,7 +8,17 @@ const natalia = { //ya tiene el _proto_
     cursosAprovados: [
         'curso1',
         'Curso2'
-    ]
+    ],
+    aprovarCursos(nuevoCurso){//metodos
+        this.cursosAprovados.push(nuevoCurso)
+    }
 }
 
-natalia.cursosAprovados.push('curso4')
+natalia.aprovarCursos.push("sdfdv")
+
+
+
+function Student (name, edad, cursosAprovados){
+    //aqui usamos los datos de arriba.
+
+}
