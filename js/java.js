@@ -3,7 +3,10 @@
 //clases: sintaxis. por dentro son prototipos. 
 
 class Student {
-    constructor(name, age, cursosAprovados){
+    constructor(
+        name, 
+        age, 
+        cursosAprovados){
         this.name = name
         this.age = age
         this.cursosAprovados=cursosAprovados
@@ -17,6 +20,8 @@ class Student {
 const fran = new Student(
     'Fran',
     29,
+     [
     'Curso de ciencias',
     'CUrso de tontera y media'
+    ]
 ) 
