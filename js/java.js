@@ -1,7 +1,4 @@
 
-
-
-
 //clases en java
 //clases: sintaxis. por dentro son prototipos. 
 
@@ -11,10 +8,11 @@ class Student {
         this.age = age
         this.cursosAprovados=cursosAprovados
     }
-    aprovarCurso(cursillo){
+       aprovarCurso(cursillo){
         this.cursosAprovados.push(cursillo)
     }
-}
+}//hay otro fukin error.
+
 
 const fran = new Student(
     'Fran',
