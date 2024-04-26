@@ -3,12 +3,18 @@
 //clases: sintaxis. por dentro son prototipos. 
 
 class Student {
-    constructor(
+    constructor({
         name, 
         age, 
-        cursosAprovados){
+        cursosAprovados = [],
+        facebook,
+        instagram,
+        tiktok,
+        email
+    }){
         this.name = name
         this.age = age
+        this.email = email
         this.cursosAprovados=cursosAprovados
     }
        aprovarCurso(cursillo){
@@ -17,14 +23,15 @@ class Student {
 }
 
 
-const fran = new Student(
-    'Fran',
-    29,
-     [
+const fran = new Student({
+    email: "fvfvf@fvfv.com",
+    name: 'Fran',
+    age: 29,
+    cursosAprovados: [
     'Curso de ciencias',
     'CUrso de tontera y media'
     ]
-) 
+}) 
 
 //ROR - recive objeto 
 //cuando es un desmadre obtener todos los datos. 
