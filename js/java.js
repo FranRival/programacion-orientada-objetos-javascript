@@ -14,7 +14,7 @@ class Student {
        aprovarCurso(cursillo){
         this.cursosAprovados.push(cursillo)
     }
-}//hay otro fukin error.
+}
 
 
 const fran = new Student(
@@ -25,3 +25,6 @@ const fran = new Student(
     'CUrso de tontera y media'
     ]
 ) 
+
+//ROR - recive objeto 
+//cuando es un desmadre obtener todos los datos. 
