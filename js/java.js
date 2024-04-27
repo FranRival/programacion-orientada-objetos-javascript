@@ -68,16 +68,16 @@ const cursoA = new loqueToca({
     nombre: 'Escuela desarrollo web',
     curso: [
         programacionBasica,
-        'Curso HTML y CSS',
-        'Curso practico',
+        HTMLyCSS,
+        practico
     ]
 })
 const cursoB = new loqueToca({
     nombre: 'Escuela datos cientificos',
     curso: [
         programacionBasica,
-        'Bussines',
-        'Visualizacion de datos',
+        bussines,
+        VisualizacionDatos
     ]
 })
 
@@ -87,8 +87,8 @@ const cursoC = new loqueToca({
     nombre: 'Escuela videojuegos',
     curso: [
         programacionBasica,
-        'Curso Unity',
-        'Curso UNreal',
+        unity,
+        UnrealEngine
     ]
 })
 
@@ -105,4 +105,29 @@ class Course{ //para no repetir codigo.
 
 const programacionBasica = new Course({
     name: 'CUrso gratis de programacion basica',
+})
+
+const HTMLyCSS = new Course({
+    name: 'CUrso HTML y CSS',
+})
+
+const practico = new Course({
+    name: 'CUrso practico',
+})
+
+
+const bussines = new Course({
+    name: 'CUrso busines',
+})
+
+const VisualizacionDatos = new Course({
+    name: 'CUrso Visualizacion de datos',
+})
+
+const unity = new Course({
+    name: 'CUrso unity',
+})
+
+const UnrealEngine = new Course({
+    name: 'CUrso Unreal ENgine',
 })
