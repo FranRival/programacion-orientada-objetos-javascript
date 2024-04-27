@@ -1,37 +1,68 @@
-
-//clases en java
-//clases: sintaxis. por dentro son prototipos. 
-
-class Student {
-    constructor({
-        name, 
-        age, 
-        cursosAprovados = [],
-        facebook,
-        instagram,
-        tiktok,
-        email
-    }){
-        this.name = name
-        this.age = age
-        this.email = email
-        this.cursosAprovados=cursosAprovados
-    }
-       aprovarCurso(cursillo){
-        this.cursosAprovados.push(cursillo)
-    }
+const alumno1 = {
+    nombre: 'Persona',
+    username: 'Pers',
+    points: 100,
+    socialMedia: {
+        twitter: 'twitter',
+        facebook: 'facebook',
+        instagram: undefined
+    },
+    cursosAprovadosALV: [
+        'Curso 1',
+        'Curso 2',
+        'Curso 3'
+    ],
+    loqueToca: [
+        {
+            name: 'Escuela desarrllo',
+            courses: [
+                'Curso 1',
+                'Curso 2',
+                'Curso responsivo alv'
+            ]
+        },
+        {
+            name: 'Escuela de videojuegos',
+            courses: [
+                'Curso introduccion',
+                'Curso unreal engine',
+                'Curso unity 3d'
+            ]
+        },
+    ]
 }
 
 
-const fran = new Student({
-    email: "fvfvf@fvfv.com",
-    name: 'Fran',
-    age: 29,
-    cursosAprovados: [
-    'Curso de ciencias',
-    'CUrso de tontera y media'
+const alumno2 = {
+    nombre: 'Persona2',
+    username: 'Pers2',
+    points: 1000,
+    socialMedia: {
+        twitter: undefined,
+        facebook: 'facebook',
+        instagram: undefined
+    },
+    cursosAprovadosALV: [
+        'Curso data vid',
+        'Curso ciencia de datos',
+        'Curso data inteligence'
+    ],
+    loqueToca: [
+        {
+            name: 'Escuela desarrllo',
+            courses: [
+                'Curso 1',
+                'Curso 2',
+                'Curso responsivo alv'
+            ]
+        },
+        {
+            name: 'Escuela CIencia datos',
+            courses: [
+                'Curso tableu',
+                'Curso dataViz',
+                'Curso dataBussineces.'
+            ]
+        },
     ]
-}) 
-
-//ROR - recive objeto 
-//cuando es un desmadre obtener todos los datos. 
+}
