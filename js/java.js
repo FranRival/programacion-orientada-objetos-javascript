@@ -21,6 +21,32 @@ class Student {
 
         this.cursosAprovados = cursosAprovados 
         this.loqueToca = loqueToca 
-
     }
 }
+
+const studiante2 = new Student ({
+    name: 'studiante2',
+    email: 'studiante2@estudiante.com',
+    username: 'studiante2',
+    loqueToca: [
+        cursoA,
+        cursoB,
+        cursoC
+    ]
+})
+
+
+
+class loqueToca {
+    constructor({
+        curso,
+        procentaje
+    }){
+        this.curso = curso
+        this.procentaje = procentaje
+    }
+}
+
+const cursoA = new loqueToca()
+const cursoB = new loqueToca()
+const cursoC = new loqueToca()
