@@ -67,6 +67,7 @@ class loqueToca {
 const cursoA = new loqueToca({
     nombre: 'Escuela desarrollo web',
     curso: [
+        'Programacion Basica',
         'Curso HTML y CSS',
         'Curso practico',
     ]
@@ -74,6 +75,7 @@ const cursoA = new loqueToca({
 const cursoB = new loqueToca({
     nombre: 'Escuela datos cientificos',
     curso: [
+        'Programacion Basica',
         'Bussines',
         'Visualizacion de datos',
     ]
@@ -84,6 +86,7 @@ const cursoB = new loqueToca({
 const cursoC = new loqueToca({
     nombre: 'Escuela videojuegos',
     curso: [
+        'Programacion Basica',
         'Curso Unity',
         'Curso UNreal',
     ]
@@ -92,10 +95,10 @@ const cursoC = new loqueToca({
 
 class Course{ //para no repetir codigo.
     constructor({
-        curso = [],
+        clases = [],
         nombre
     }){
-        this.curso = curso
+        this.clases = clases
         this.nombre = nombre
     }
 }
