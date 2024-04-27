@@ -1,3 +1,10 @@
+//ABSTRACCION
+//los datos para crear el proto.
+
+//abstraccion es evitar codigo duplicado. 
+//escalabilidad.
+//encapsular datos.
+
 //crear instancias de objetos a la dickenson.
 
 class Student {
@@ -35,18 +42,60 @@ const studiante2 = new Student ({
     ]
 })
 
+const studiante3 = new Student ({
+    name: 'studiante2',
+    email: 'studiante2@estudiante.com',
+    username: 'studiante2',
+    loqueToca: [
+        cursoB,
+        cursoC
+    ]
+})
+
 
 
 class loqueToca {
     constructor({
-        curso,
-        procentaje
+        curso = [],
+        nombre
     }){
         this.curso = curso
-        this.procentaje = procentaje
+        this.nombre = nombre
     }
 }
 
-const cursoA = new loqueToca()
-const cursoB = new loqueToca()
-const cursoC = new loqueToca()
+const cursoA = new loqueToca({
+    nombre: 'Escuela desarrollo web',
+    curso: [
+        'Curso HTML y CSS',
+        'Curso practico',
+    ]
+})
+const cursoB = new loqueToca({
+    nombre: 'Escuela datos cientificos',
+    curso: [
+        'Bussines',
+        'Visualizacion de datos',
+    ]
+})
+
+
+
+const cursoC = new loqueToca({
+    nombre: 'Escuela videojuegos',
+    curso: [
+        'Curso Unity',
+        'Curso UNreal',
+    ]
+})
+
+
+class Course{ //para no repetir codigo.
+    constructor({
+        curso = [],
+        nombre
+    }){
+        this.curso = curso
+        this.nombre = nombre
+    }
+}
