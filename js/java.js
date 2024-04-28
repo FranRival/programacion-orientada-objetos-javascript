@@ -5,28 +5,26 @@ class Course{
         nombre
     }){
         this.clases = clases
-        this._nombre = nombre //que nadie mande a llamar con guion bajo.
+        this._nombre = nombre 
     }
-    get nombrecillo(){ //que manden a llamar este. que envia el nombre.
+    get nombrecillo(){ 
         return this._nombre
     }
 
     set nombrecillo(nombreNuevo){
-        if (nombreNuevo=== "Curso tonto") {//evitar putas.
+        if (nombreNuevo=== "Curso tonto") {
             console.error('Web,. no.')
         }else {
-            this._name = nombreNuevo //protegernos de errores que comentan usuarios
+            this._name = nombreNuevo 
         }
     }
 }
 
 
-
-
-
 const programacionBasica = new Course({
-    name: 'CUrso gratis de programacion basica',
+    nombre: 'CUrso gratis de programacion basica',
 })
+
 
 const HTMLyCSS = new Course({
     name: 'CUrso HTML y CSS',
@@ -52,6 +50,7 @@ const unity = new Course({
 const UnrealEngine = new Course({
     name: 'CUrso Unreal ENgine',
 })
+
 
 
 
@@ -145,5 +144,8 @@ const studiante3 = new Student ({
         cursoC
     ]
 })
+
+
+
 
 
