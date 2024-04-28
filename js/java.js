@@ -107,6 +107,14 @@ class Course{
     cambiarNombre (nombreNuevo){
         this._nombre = nombreNuevo
     }
+
+    set nombrecillo(nombreNuevo){
+        if (nombreNuevo=== "Curso tonto de programation") {//evitar putas.
+            console.error('Web,. no.')
+        }else {
+            this._name = nombreNuevo //protegernos de errores que comentan usuarios
+        }
+    }
 }
 
 programacionBasica.nombrecillo 
