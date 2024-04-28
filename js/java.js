@@ -93,7 +93,7 @@ const cursoC = new loqueToca({
 })
 
 
-class Course{ //para no repetir codigo.
+class Course{
     constructor({
         clases = [],
         nombre
@@ -131,3 +131,13 @@ const unity = new Course({
 const UnrealEngine = new Course({
     name: 'CUrso Unreal ENgine',
 })
+
+
+//encapsulamiento; guardianes.
+//un intermediario. 
+
+//esconder metodos y atributos. privados. solo manipular por dentro de los metodos y atributos.
+
+//no permitir la alteracion de metodos y atributos.
+
+//encapsular: getter y setters. namespaces. - ibject.defineProperties - modulos de ES6
