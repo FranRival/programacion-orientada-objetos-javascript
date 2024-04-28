@@ -1,11 +1,3 @@
-//ABSTRACCION
-//los datos para crear el proto.
-
-//abstraccion es evitar codigo duplicado. 
-//escalabilidad.
-//encapsular datos.
-
-//crear instancias de objetos a la dickenson.
 
 class Student {
     constructor({
@@ -43,9 +35,9 @@ const studiante2 = new Student ({
 })
 
 const studiante3 = new Student ({
-    name: 'studiante2',
+    name: 'studiante3',
     email: 'studiante2@estudiante.com',
-    username: 'studiante2',
+    username: 'studiante3',
     loqueToca: [
         cursoB,
         cursoC
@@ -109,7 +101,7 @@ class Course{
     }
 
     set nombrecillo(nombreNuevo){
-        if (nombreNuevo=== "Curso tonto de programation") {//evitar putas.
+        if (nombreNuevo=== "Curso tonto") {//evitar putas.
             console.error('Web,. no.')
         }else {
             this._name = nombreNuevo //protegernos de errores que comentan usuarios
@@ -117,8 +109,6 @@ class Course{
     }
 }
 
-programacionBasica.nombrecillo 
-programacionBasica.cambiarNombre('ANISKS')
 
 
 
@@ -153,3 +143,5 @@ const UnrealEngine = new Course({
 })
 
 
+programacionBasica.nombrecillo 
+programacionBasica.cambiarNombre('ANISKS')
