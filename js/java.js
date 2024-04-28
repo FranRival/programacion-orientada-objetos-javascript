@@ -99,9 +99,21 @@ class Course{
         nombre
     }){
         this.clases = clases
-        this.nombre = nombre
+        this._nombre = nombre //que nadie mande a llamar con guion bajo.
+    }
+    get nombrecillo(){ //que manden a llamar este. que envia el nombre.
+        return this._nombre
+    }
+    cambiarNombre (nombreNuevo){
+        this._nombre = nombreNuevo
     }
 }
+
+programacionBasica.nombrecillo 
+programacionBasica.cambiarNombre('ANISKS')
+
+
+
 
 const programacionBasica = new Course({
     name: 'CUrso gratis de programacion basica',
@@ -133,11 +145,3 @@ const UnrealEngine = new Course({
 })
 
 
-//encapsulamiento; guardianes.
-//un intermediario. 
-
-//esconder metodos y atributos. privados. solo manipular por dentro de los metodos y atributos.
-
-//no permitir la alteracion de metodos y atributos.
-
-//encapsular: getter y setters. namespaces. - ibject.defineProperties - modulos de ES6
