@@ -27,28 +27,28 @@ const programacionBasica = new Course({
 
 
 const HTMLyCSS = new Course({
-    name: 'CUrso HTML y CSS',
+    nombre: 'CUrso HTML y CSS',
 })
 
 const practico = new Course({
-    name: 'CUrso practico',
+    nombre: 'CUrso practico',
 })
 
 
 const bussines = new Course({
-    name: 'CUrso busines',
+    nombre: 'CUrso busines',
 })
 
 const VisualizacionDatos = new Course({
-    name: 'CUrso Visualizacion de datos',
+    nombre: 'CUrso Visualizacion de datos',
 })
 
 const unity = new Course({
-    name: 'CUrso unity',
+    nombre: 'CUrso unity',
 })
 
 const UnrealEngine = new Course({
-    name: 'CUrso Unreal ENgine',
+    nombre: 'CUrso Unreal ENgine',
 })
 
 
