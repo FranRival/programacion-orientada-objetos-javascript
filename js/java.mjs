@@ -98,6 +98,10 @@ const cursoC = new loqueToca({
 
 
 
+
+
+
+
 class Student {
     constructor({
         name,
@@ -121,6 +125,27 @@ class Student {
         this.loqueToca = loqueToca 
     }
 }
+
+
+class FreeStudent extends Student {
+    constructor(props){
+        super()//referenciando al constructor de la clase madre
+    }
+}
+
+class BasicStudent extends Student {}
+
+class ExpertStudent extends Student {}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,14 +192,16 @@ export class ClaseOnline {
 }
 
 function videoPlay(id){
-    const urlSecreta = 'https://google.com' + id
+    const urlSecreta = 'https://google.com/' + id
     console.log('se esta produciendo desde la url ' + urlSecreta);
 }
 
 function videoStop(id) {
-    const urlSecreta = 'https://google.com' + id
+    const urlSecreta = 'https://google.com/' + id
     console.log('Pausamos la url ' + urlSecreta);
 }
 
 
 //cambiando la extension mjs, el archivo se vuelve inigecutable. no existe y se vuelve invisible
+
+//suscripcion Free > suscripcion Basic > suscripcion Expert
