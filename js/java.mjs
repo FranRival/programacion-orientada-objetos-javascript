@@ -2,10 +2,14 @@
 class Course{
     constructor({
         clases = [],
-        nombre
+        nombre,
+        isFree = false,
+        lang = 'Spanish'
     }){
         this.clases = clases
         this._nombre = nombre 
+        this.isFree = isFree
+        this.lang = lang
     }
     get nombrecillo(){ 
         return this._nombre
@@ -29,6 +33,7 @@ class Course{
 
 const programacionBasica = new Course({
     nombre: 'CUrso gratis de programacion basica',
+    isFree: true
 })
 
 
@@ -38,6 +43,7 @@ const HTMLyCSS = new Course({
 
 const practico = new Course({
     nombre: 'CUrso practico',
+    lang: 'english'
 })
 
 
