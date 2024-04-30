@@ -148,7 +148,7 @@ const studiante3 = new Student ({
 
 //ecmascript 6
 
-export class ClaseOnline {//bloques de codigo que se pueden ejecutar desde cualquier otro script. 
+export class ClaseOnline {
     constructor({
         name, 
         videoID,

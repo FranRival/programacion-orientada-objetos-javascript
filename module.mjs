@@ -1,4 +1,4 @@
-import { ClaseOnline } from "../js/java.mjs";
+import { ClaseOnline } from "./js/java.mjs";
 
 const clase67 = new ClaseOnline ({
     name: 'Javascript: orientada a objetos, basado en prototipos.',
