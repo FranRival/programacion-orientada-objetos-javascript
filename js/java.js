@@ -146,6 +146,32 @@ const studiante3 = new Student ({
 })
 
 
+//ecmascript 6
 
+class ClaseOnline {
+    constructor({
+        name, 
+        videoID,
 
+    }){
 
+        this.name = name
+        this.videoID = videoID
+    }
+    reproducir (){
+        videoPlay(this.videoID)
+    }
+    pausar (){
+        videoStop(this.videoID)
+    }
+}
+
+function videoPlay(id){
+    const urlSecreta = 'https://google.com' + id
+    console.log('se esta produciendo desde la url ' + urlSecreta);
+}
+
+function videoStop(id) {
+    const urlSecreta = 'https://google.com' + id
+    console.log('Pausamos la url ' + urlSecreta);
+}
