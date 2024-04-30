@@ -21,6 +21,12 @@ class Course{
 }
 
 
+
+
+
+
+
+
 const programacionBasica = new Course({
     nombre: 'CUrso gratis de programacion basica',
 })
@@ -129,13 +135,45 @@ class Student {
 
 class FreeStudent extends Student {
     constructor(props){
-        super()//referenciando al constructor de la clase madre
+        super(props)
+    }
+
+    approveCourse(newCourse){
+
+        if (newCourse.isFree) {
+            this.approveCourse.push(newCourse)
+        }else{
+            console.warn('Lo sentimos,' + this.name + ' solo puedes tomar cursos abiertos');
+        }
     }
 }
 
-class BasicStudent extends Student {}
+class BasicStudent extends Student {
+    constructor(props){
+        super(props)
+    }
 
-class ExpertStudent extends Student {}
+    approveCourse(newCourse){
+
+        if (newCourse.lang !== 'english') {
+            this.approveCourse.push(newCourse)
+        }else{
+            console.warn('Lo sentimos,' + this.name + ' no puedes tomar cursos en ingles.');
+        }
+    }
+    
+}
+
+class ExpertStudent extends Student {
+    constructor(props){
+        super(props)
+    }
+
+    approveCourse(newCourse){
+            this.approveCourse.push(newCourse)
+
+    }
+}
 
 
 
