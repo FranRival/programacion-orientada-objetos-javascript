@@ -1,3 +1,24 @@
+class Comment {
+    constructor({
+        content,
+        studianteNombre,
+        studentRole = 'estudiante'
+    }){
+        this.content = content
+        this.studianteNombre = studianteNombre
+        this.studentRole = studentRole
+
+        this.likes = 0
+    }
+    publicar(){
+        console.log(this.studianteNombre + ' (' + this.studentRole + ') ');
+        console.log(this.likes + ' likes');
+        console.log(this.content);
+    }
+}
+
+
+
 
 class Course{
     constructor({
@@ -136,6 +157,15 @@ class Student {
         this.cursosAprovados = cursosAprovados 
         this.loqueToca = loqueToca 
     }
+
+    publicarComentario(commentContent){
+
+        const comment = new Comment({
+            content: commentContent,
+            studianteNombre: this.name,
+        })
+        comment.publicar()
+    }
 }
 
 
@@ -256,6 +286,7 @@ function videoStop(id) {
 }
 
 
-//cambiando la extension mjs, el archivo se vuelve inigecutable. no existe y se vuelve invisible
+//POLIMORFISMO
 
-//suscripcion Free > suscripcion Basic > suscripcion Expert
+//cambiar o anular los metodos y atributos de una clase.
+//
