@@ -21,6 +21,49 @@ class Comment {
 
 
 
+
+
+
+
+
+
+
+
+class Student {
+    constructor({
+        name,
+        email,
+        username,
+        instagram = undefined,
+        facebook = undefined,
+        cursosAprovados = [],
+        loqueToca =[]
+    }){
+        this.name = name 
+        this.emai = email 
+        this.username = username 
+
+        this.socialMedia = {
+            instagram,
+            facebook
+        }
+
+        this.cursosAprovados = cursosAprovados 
+        this.loqueToca = loqueToca 
+    }
+
+    publicarComentario(commentContent){
+
+        const comment = new Comment({
+            content: commentContent,
+            studianteNombre: this.name,
+        })
+        comment.publicar()
+    }
+}
+
+
+
 class TeacherStudent extends Student{
     constructor(props){
         super(props)
@@ -157,42 +200,6 @@ const cursoC = new loqueToca({
 
 
 
-
-
-class Student {
-    constructor({
-        name,
-        email,
-        username,
-        instagram = undefined,
-        facebook = undefined,
-        cursosAprovados = [],
-        loqueToca =[]
-    }){
-        this.name = name 
-        this.emai = email 
-        this.username = username 
-
-        this.socialMedia = {
-            instagram,
-            facebook
-        }
-
-        this.cursosAprovados = cursosAprovados 
-        this.loqueToca = loqueToca 
-    }
-
-    publicarComentario(commentContent){
-
-        const comment = new Comment({
-            content: commentContent,
-            studianteNombre: this.name,
-        })
-        comment.publicar()
-    }
-}
-
-
 class FreeStudent extends Student {
     constructor(props){
         super(props)
@@ -250,11 +257,6 @@ const Naomi = new TeacherStudent ({
     name: 'Naomi',
     email: 'Naomi@profesor.com',
     username: 'profesor',
-    loqueToca: [
-        cursoA,
-        cursoB,
-        cursoC
-    ]
 })
 
 
