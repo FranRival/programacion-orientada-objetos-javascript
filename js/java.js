@@ -20,6 +20,30 @@ class Comment {
 
 
 
+
+class TeacherStudent extends Student{
+    constructor(props){
+        super(props)
+    }
+    approveCourse(newCourse){
+            this.cursosAprovados.push(newCourse)
+    }
+
+
+    publicarComentario(commentContent){
+
+        const comment = new Comment({
+            content: commentContent,
+            studianteNombre: this.name,
+            studentRole: 'Profesor'
+        })
+        comment.publicar()
+    }
+
+}
+
+
+
 class Course{
     constructor({
         clases = [],
@@ -220,6 +244,18 @@ class ExpertStudent extends Student {
 
 
 
+
+
+const Naomi = new TeacherStudent ({
+    name: 'Naomi',
+    email: 'Naomi@profesor.com',
+    username: 'profesor',
+    loqueToca: [
+        cursoA,
+        cursoB,
+        cursoC
+    ]
+})
 
 
 
