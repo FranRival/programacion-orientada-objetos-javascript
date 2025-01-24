@@ -347,3 +347,4 @@ let mensaje = 'Un tipo feliz y afortunado.'
 let arr = mensaje.split(' ')
 alert(arr) */
 
+//creo que comienzo a understand esa thing de setters y getters.
