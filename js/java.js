@@ -361,3 +361,12 @@ alert(arr) */
 //el constructor se declara dentro de la clase. se definen los parametros como propiedades de la clase.
 
 //se utiliza el this. le damos un nombre. y tenemos que igualar al parametro deseado.  this.valor = valor.
+
+//el constructor se ejecuta desde fuera de la clase
+//estos son constructores? - Object, Array, Map, Set, Date, RegExp, Function
+
+//constructor: 
+// 
+// se crea un nuevo objeto vacio. 
+// //this. se refiere al nuevo objeto. y se vuelve el nuevo objeto de instancia actual.
+//ese nuevo objeto y su valor se devuelven en el contructor.
