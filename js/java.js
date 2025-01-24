@@ -328,3 +328,13 @@ function videoStop(id) {
 
 //cambiar o anular los metodos y atributos de una clase.
 //
+
+
+//get y settes: 
+//valores y propiedades - encapsulan objetos.
+//permiten leerlos y asignar nuevos valores.
+//el setter asigna un valor. 
+//getter, tiene el valor vacio
+//obtienes valor con get, defines y asignas valor con set.
+
+
