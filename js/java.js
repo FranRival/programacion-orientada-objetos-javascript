@@ -336,5 +336,14 @@ function videoStop(id) {
 //el setter asigna un valor. 
 //getter, tiene el valor vacio
 //obtienes valor con get, defines y asignas valor con set.
+//con el getter, no se llama a la funcion. corre "detras de escena".
 
+
+//el indice es parte basica de js.
+//SPLIT. quiebra el string en palabras.
+// 
+/* 
+let mensaje = 'Un tipo feliz y afortunado.'
+let arr = mensaje.split(' ')
+alert(arr) */
 
