@@ -370,3 +370,22 @@ alert(arr) */
 // se crea un nuevo objeto vacio. 
 // //this. se refiere al nuevo objeto. y se vuelve el nuevo objeto de instancia actual.
 //ese nuevo objeto y su valor se devuelven en el contructor.
+
+//al parecer un constructor es asi: 
+//function Usuario (nombre, edad)
+
+//diferencias entre un objeto literal, y un constructor.
+
+/* 
+Object literal
+let user = {
+    name: 'Bob'
+} */
+
+ /*    //Constructor
+function User() {
+    this.name = 'Bob';
+}
+
+var user1 = new User();
+var user2 = new User(); */
