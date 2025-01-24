@@ -350,3 +350,9 @@ alert(arr) */
 //creo que comienzo a understand esa thing de setters y getters.
 
 //los getters y los setters convinados con objetos
+
+
+//constructor: 
+//inicializar un objeto a partir de una clase.
+//todos los objetos tienen un constructor. 
+//lo mas importante de una clase es su constructor
