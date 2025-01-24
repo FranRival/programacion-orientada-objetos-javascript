@@ -356,3 +356,8 @@ alert(arr) */
 //inicializar un objeto a partir de una clase.
 //todos los objetos tienen un constructor. 
 //lo mas importante de una clase es su constructor
+
+//la clase coche - el constructor sera llave. 
+//el constructor se declara dentro de la clase. se definen los parametros como propiedades de la clase.
+
+//se utiliza el this. le damos un nombre. y tenemos que igualar al parametro deseado.  this.valor = valor.
