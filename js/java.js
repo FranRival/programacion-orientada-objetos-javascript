@@ -348,3 +348,5 @@ let arr = mensaje.split(' ')
 alert(arr) */
 
 //creo que comienzo a understand esa thing de setters y getters.
+
+//los getters y los setters convinados con objetos
