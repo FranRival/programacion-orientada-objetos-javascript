@@ -389,3 +389,5 @@ function User() {
 
 var user1 = new User();
 var user2 = new User(); */
+
+//entendiendo como funciona la estructura de esta hoja
