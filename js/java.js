@@ -391,3 +391,14 @@ var user1 = new User();
 var user2 = new User(); */
 
 //entendiendo como funciona la estructura de esta hoja
+
+
+//ABSTRACCION
+//los datos para crear el proto.
+
+//abstraccion es evitar codigo duplicado. 
+//escalabilidad.
+//encapsular datos.
+
+//crear instancias de objetos a la dickenson.
+
