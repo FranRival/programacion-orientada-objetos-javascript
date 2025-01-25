@@ -1,4 +1,4 @@
-/* 
+
 //objetos literales y prototipos 
 
 const natalia = { //ya tiene el _proto_
@@ -17,7 +17,7 @@ const natalia = { //ya tiene el _proto_
 natalia.aprovarCursos.push("sdfdv") /////////NO GOT UNDERSTAND THIS ERROR.
 
 //creo que el error esta en que es un set o get.
-// */
+//
 
 
 
