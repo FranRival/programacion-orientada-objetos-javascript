@@ -50,3 +50,5 @@ class loqueToca {
 const cursoA = new loqueToca()
 const cursoB = new loqueToca()
 const cursoC = new loqueToca()
+
+//es un constructor. como funciona esta clase con lo que hemos visto.
