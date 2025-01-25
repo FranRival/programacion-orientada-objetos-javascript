@@ -54,24 +54,9 @@ const studiante3 = new Student ({
 
 
 
-class loqueToca {
-    constructor({
-        curso = [],
-        nombre
-    }){
-        this.curso = curso
-        this.nombre = nombre
-    }
-}
 
-const cursoA = new loqueToca({
-    nombre: 'Escuela desarrollo web',
-    curso: [
-        programacionBasica,
-        HTMLyCSS,
-        practico
-    ]
-})
+
+
 const cursoB = new loqueToca({
     nombre: 'Escuela datos cientificos',
     curso: [
@@ -92,6 +77,36 @@ const cursoC = new loqueToca({
     ]
 })
 
+///////////////////////////
+
+
+
+
+
+
+
+///////////desde aqui hay un error de no definido. 
+
+class loqueToca {
+    constructor({
+        curso = [],
+        nombre
+    }){
+        this.curso = curso
+        this.nombre = nombre
+    }
+}
+
+
+const cursoA = new loqueToca({
+    nombre: 'Escuela desarrollo web',
+    curso: [
+        programacionBasica,
+        HTMLyCSS,
+        practico
+    ]
+})
+
 
 class Course{
     constructor({
@@ -109,8 +124,7 @@ class Course{
     }
 }
 
-programacionBasica.nombrecillo 
-programacionBasica.cambiarNombre('ANISKS')
+
 
 
 
@@ -118,6 +132,20 @@ programacionBasica.cambiarNombre('ANISKS')
 const programacionBasica = new Course({
     name: 'CUrso gratis de programacion basica',
 })
+
+programacionBasica.nombrecillo 
+programacionBasica.cambiarNombre('ANISKS')
+
+
+/////////////////////////////////
+
+
+
+
+
+
+
+
 
 const HTMLyCSS = new Course({
     name: 'CUrso HTML y CSS',
