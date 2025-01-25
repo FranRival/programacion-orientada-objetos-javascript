@@ -92,7 +92,7 @@ const cursoC = new loqueToca({
     ]
 })
 
-
+//////////////////////////////////////un ejemplo de lo que hemos visto.
 class Course{
     constructor({
         clases = [],
@@ -112,7 +112,7 @@ class Course{
 programacionBasica.nombrecillo 
 programacionBasica.cambiarNombre('ANISKS')
 
-
+//////////////////////////////////////////////////////////
 
 
 const programacionBasica = new Course({
