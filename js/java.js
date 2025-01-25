@@ -410,3 +410,5 @@ var user2 = new User(); */
 //no permitir la alteracion de metodos y atributos.
 
 //encapsular: getter y setters. namespaces. - ibject.defineProperties - modulos de ES6
+
+//eso es todo lo que nos enseno este proyecto. un repaso.
