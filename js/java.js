@@ -40,7 +40,7 @@ const studiante2 = new Student ({
         cursoB,
         cursoC
     ]
-})
+}) //hay un error. butt for what. porque existe ese error de reference.
 
 const studiante3 = new Student ({
     name: 'studiante2',
