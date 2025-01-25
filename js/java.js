@@ -402,3 +402,11 @@ var user2 = new User(); */
 
 //crear instancias de objetos a la dickenson.
 
+//encapsulamiento; guardianes.
+//un intermediario. 
+
+//esconder metodos y atributos. privados. solo manipular por dentro de los metodos y atributos.
+
+//no permitir la alteracion de metodos y atributos.
+
+//encapsular: getter y setters. namespaces. - ibject.defineProperties - modulos de ES6
