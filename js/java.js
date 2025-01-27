@@ -356,7 +356,10 @@ alert(arr) */
 //creo que comienzo a understand esa thing de setters y getters.
 //con ejemplos
 
-//los getters y los setters convinados con objetos
+//los getters y los setters conbinados con objetos
+
+//DEFINEPROPERTY()
+//butt, que pasa con writable, valueable, configurable
 
 
 //objetos literales vs clases.
