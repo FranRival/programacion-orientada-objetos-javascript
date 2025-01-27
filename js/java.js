@@ -337,6 +337,12 @@ function videoStop(id) {
 //getter, tiene el valor vacio
 //obtienes valor con get, defines y asignas valor con set.
 //con el getter, no se llama a la funcion. corre "detras de escena".
+//get define una especie de metodo. pero no es un metodo. 
+//no utiliza parentesis a la llamada.
+//creo que el setter siempre se define en el codigo. no en consola. y se utilizan corchetes cuadrados. 
+//set, siempre seran colecciones de valores. 
+//cambiar los valores de un objeto.
+
 
 
 //el indice es parte basica de js.
